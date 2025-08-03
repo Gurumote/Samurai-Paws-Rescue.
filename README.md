@@ -67,5 +67,3 @@ No real swords, just wagging tails. All fights resolved by tug-of-war. Bark-Sens
 
 🥢 Closing Bark
 Join the Bark-Sensei Clan—a place where every dog’s a hero (at least in their own saga)! Fetch glory, share snacks, and let’s unleash legends together!
-
-May your kibbles be plentiful and your adventures be epic.
