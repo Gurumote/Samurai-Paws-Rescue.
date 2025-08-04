@@ -292,3 +292,73 @@ h2 {
   .donate-btn:hover {
     background-color: #555;
   }
+  @media (max-width: 768px) {
+  /* Navbar adjustments */
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  /* Logo adjustment for mobile */
+  .logo {
+    position: relative;
+    left: 0;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* Hero section padding */
+  .hero {
+    padding: 80px 20px;
+    height: auto;
+  }
+
+  /* Container widths */
+  .container, .container1, .container2 {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  /* Stack vision and mission vertically */
+  .container12 {
+    flex-direction: column;
+  }
+
+  .vision, .mission {
+    padding: 10px 0;
+  }
+
+  /* Donation images and buttons take full width */
+  .disabled-dogs {
+    flex-direction: column;
+  }
+  .dog {
+    margin: 10px auto;
+    max-width: 90%;
+  }
+  .dog img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Buttons resize comfortably */
+  .donate-btn, .btn {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px 0;
+    font-size: 18px;
+  }
+
+  /* Text sizes adjustment for readability */
+  h2 {
+    font-size: 28px;
+  }
+  p, .paragraph, .paragraph1, .paragraph2 {
+    font-size: 16px;
+  }
+}
